@@ -1,0 +1,16 @@
+{
+  consul: "localhost:8500",
+  logging: {
+    level: "{{ .LOG_LEVEL | default "INFO" }}"
+  },
+  jobs: [
+    {
+      name: "sleep",
+      exec: [
+        "sh",
+        "-c",
+        "while sleep 3600; do :; done"
+      ]
+    }
+  ]
+}
