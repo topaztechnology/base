@@ -1,10 +1,10 @@
-FROM alpine:3.6
+FROM alpine:3.8
 MAINTAINER Topaz Tech Ltd <info@topaz.technology>
 
 # Containerpilot
-ENV CONTAINERPILOT_VERSION 3.6.0
+ENV CONTAINERPILOT_VERSION 3.8.0
 ENV CONTAINERPILOT_RELEASES https://github.com/joyent/containerpilot/releases/download
-ENV CONTAINERPILOT_CHECKSUM 1248784ff475e6fda69ebf7a2136adbfb902f74b
+ENV CONTAINERPILOT_CHECKSUM 84642c13683ddae6ccb63386e6160e8cb2439c26
 
 RUN apk add --update --no-cache ca-certificates bind-tools curl bash jq
 
