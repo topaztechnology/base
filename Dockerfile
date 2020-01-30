@@ -1,4 +1,4 @@
-FROM alpine:3.10.1
+FROM alpine:3.11.3
 MAINTAINER Topaz Tech Ltd <info@topaz.technology>
 
 # Containerpilot

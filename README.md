@@ -1,5 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 * `latest` [(Dockerfile)](https://github.com/topaztechnology/base/blob/master/Dockerfile) - the latest release
+* `3.11.3` [(Dockerfile)](https://github.com/topaztechnology/base/blob/3.11.3/Dockerfile) - release based on Alpine 3.11.3 and Containerpilot 3.8
 * `3.10.1` [(Dockerfile)](https://github.com/topaztechnology/base/blob/3.10.1/Dockerfile) - release based on Alpine 3.10.1 and Containerpilot 3.8
 * `3.8` [(Dockerfile)](https://github.com/topaztechnology/base/blob/3.8/Dockerfile) - release based on Alpine 3.8 and Containerpilot 3.8
 * `3.6` [(Dockerfile)](https://github.com/topaztechnology/base/blob/3.6/Dockerfile) - release based on Alpine 3.6 and Containerpilot 3.6
