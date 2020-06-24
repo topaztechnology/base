@@ -1,5 +1,5 @@
-FROM alpine:3.11.3
-MAINTAINER Topaz Tech Ltd <info@topaz.technology>
+FROM alpine:3.12.0
+LABEL maintainer="Topaz Tech Ltd <info@topaz.technology>"
 
 # Containerpilot
 ENV CONTAINERPILOT_VERSION 3.8.0
